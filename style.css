@@ -1,6 +1,69 @@
-.placeHolder{
-    background-color: blueviolet;
+/* Main Style*/
+body {
+  margin: 0px;
 }
-.anotherClass{
-    background-color: chocolate;
+
+.package {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+/*Package Style*/
+.nav-package {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.left-SPage {
+  display: flex;
+}
+
+.nav-package > .left-SPage > div {
+  margin-right: 20px;
+  font-size: 0.9em;
+  text-transform: uppercase;
+}
+
+.nav-link-package {
+  height: 25px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s;
+}
+
+.nav-link-package a {
+  color: tomato;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.nav-link-package:hover {
+  border-bottom: 1px solid green;
+}
+
+.nav-link-package a:hover {
+  color: grey;
+}
+@keyframes munch
+{
+     0% {
+          transform:rotate(90deg);
+     }
+     50% {
+          transform:rotate(0deg);
+     }
+     100% {
+          transform:rotate(90deg);
+     }
+}
+@keyframes bite
+{
+     0% {
+          transform:rotate(45deg);
+     }
+     50% {
+          transform:rotate(90deg);
+     }
+     100% {
+          transform:rotate(45deg);
+     }
 }
