@@ -24,6 +24,12 @@ body {
   text-transform: uppercase;
 }
 
+.nav-package > .right-SPage > div {
+  margin-right: 20px;
+  font-size: 0.9em;
+  text-transform: uppercase;
+}
+
 .nav-link-package {
   height: 25px;
   border-bottom: 1px solid transparent;
@@ -42,28 +48,4 @@ body {
 
 .nav-link-package a:hover {
   color: grey;
-}
-@keyframes munch
-{
-     0% {
-          transform:rotate(90deg);
-     }
-     50% {
-          transform:rotate(0deg);
-     }
-     100% {
-          transform:rotate(90deg);
-     }
-}
-@keyframes bite
-{
-     0% {
-          transform:rotate(45deg);
-     }
-     50% {
-          transform:rotate(90deg);
-     }
-     100% {
-          transform:rotate(45deg);
-     }
 }
