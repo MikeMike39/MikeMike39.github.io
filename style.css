@@ -1,6 +1,7 @@
 /* Main Style*/
 body {
   margin: 0px;
+  background: ;
 }
 
 .package {
@@ -17,13 +18,13 @@ body {
 .left-SPage {
   display: flex;
 }
-
+/* "Home an About Me Buttons"*/
 .nav-package > .left-SPage > div {
   margin-right: 20px;
   font-size: 0.9em;
   text-transform: uppercase;
 }
-
+/* "Michael Fonseca"*/
 .nav-package > .right-SPage > div {
   margin-right: 20px;
   font-size: 0.9em;
@@ -35,7 +36,7 @@ body {
   border-bottom: 1px solid transparent;
   transition: border-bottom 0.5s;
 }
-
+/*Changes color of "Home an About Me Buttons"*/
 .nav-link-package a {
   color: tomato;
   text-decoration: none;
@@ -45,7 +46,11 @@ body {
 .nav-link-package:hover {
   border-bottom: 1px solid green;
 }
-
+/*Changes color of "Home an About Me Buttons" when user hovers cursor over them*/
 .nav-link-package a:hover {
   color: grey;
+}
+/* Changes overall "p" property font*/
+p {
+  font-size: 24px;
 }
