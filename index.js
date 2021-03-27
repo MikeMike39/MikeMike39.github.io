@@ -4,7 +4,7 @@ const body = document.querySelector("body");
 const colors = ["red", "green", "blue", "yellow", "pink", "purple"];
 //Starting background color before the click
 body.style.backgroundColor = "lightblue";
-//Event listener wait for user input
+// Event listener wait for user input
 button.addEventListener("click", changeBackground);
 // Function for random color
 function changeBackground() {
